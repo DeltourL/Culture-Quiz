@@ -1,0 +1,760 @@
+[{
+  "_id": {
+    "$oid": "6645c415f25044074291228f"
+  },
+  "text": "What is the capital of France?",
+  "category": "Geography",
+  "correctAnswer": "Paris",
+  "wrongAnswers": [
+    "London",
+    "Berlin",
+    "Madrid",
+    "Rome",
+    "Lisbon",
+    "Vienna",
+    "Amsterdam",
+    "Brussels",
+    "Zurich"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912290"
+  },
+  "text": "What is the longest river in the world?",
+  "category": "Geography",
+  "correctAnswer": "Nile",
+  "wrongAnswers": [
+    "Amazon",
+    "Yangtze",
+    "Mississippi",
+    "Yenisei",
+    "Yellow",
+    "Congo",
+    "Mekong",
+    "Volga",
+    "Danube"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912291"
+  },
+  "text": "Which country has the largest population?",
+  "category": "Geography",
+  "correctAnswer": "China",
+  "wrongAnswers": [
+    "India",
+    "USA",
+    "Indonesia",
+    "Brazil",
+    "Pakistan",
+    "Nigeria",
+    "Bangladesh",
+    "Russia",
+    "Mexico"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912292"
+  },
+  "text": "Which ocean is the largest?",
+  "category": "Geography",
+  "correctAnswer": "Pacific Ocean",
+  "wrongAnswers": [
+    "Atlantic Ocean",
+    "Indian Ocean",
+    "Southern Ocean",
+    "Arctic Ocean",
+    "Mediterranean Sea",
+    "Caribbean Sea",
+    "South China Sea",
+    "Bering Sea",
+    "Gulf of Mexico"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912293"
+  },
+  "text": "What is the smallest country by land area?",
+  "category": "Geography",
+  "correctAnswer": "Vatican City",
+  "wrongAnswers": [
+    "Monaco",
+    "San Marino",
+    "Liechtenstein",
+    "Malta",
+    "Andorra",
+    "Nauru",
+    "Tuvalu",
+    "Saint Kitts and Nevis",
+    "Marshall Islands"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912294"
+  },
+  "text": "Which continent is the largest by land area?",
+  "category": "Geography",
+  "correctAnswer": "Asia",
+  "wrongAnswers": [
+    "Africa",
+    "North America",
+    "South America",
+    "Antarctica",
+    "Europe",
+    "Australia",
+    "Greenland",
+    "Iceland",
+    "Madagascar"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912295"
+  },
+  "text": "What is the capital of Japan?",
+  "category": "Geography",
+  "correctAnswer": "Tokyo",
+  "wrongAnswers": [
+    "Osaka",
+    "Kyoto",
+    "Nagoya",
+    "Sapporo",
+    "Fukuoka",
+    "Yokohama",
+    "Hiroshima",
+    "Kobe",
+    "Sendai"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912296"
+  },
+  "text": "What is the official language of Brazil?",
+  "category": "Geography",
+  "correctAnswer": "Portuguese",
+  "wrongAnswers": [
+    "Spanish",
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Dutch",
+    "Russian",
+    "Japanese",
+    "Chinese"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912297"
+  },
+  "text": "Which US state has the most population?",
+  "category": "Geography",
+  "correctAnswer": "California",
+  "wrongAnswers": [
+    "Texas",
+    "Florida",
+    "New York",
+    "Pennsylvania",
+    "Illinois",
+    "Ohio",
+    "Georgia",
+    "North Carolina",
+    "Michigan"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912298"
+  },
+  "text": "Which country is known as the Land of the Rising Sun?",
+  "category": "Geography",
+  "correctAnswer": "Japan",
+  "wrongAnswers": [
+    "China",
+    "South Korea",
+    "Thailand",
+    "Vietnam",
+    "India",
+    "Malaysia",
+    "Philippines",
+    "Indonesia",
+    "Singapore"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f250440742912299"
+  },
+  "text": "Who wrote 'To Kill a Mockingbird'?",
+  "category": "Literature",
+  "correctAnswer": "Harper Lee",
+  "wrongAnswers": [
+    "J.K. Rowling",
+    "Ernest Hemingway",
+    "F. Scott Fitzgerald",
+    "Mark Twain",
+    "George Orwell",
+    "Jane Austen",
+    "Charles Dickens",
+    "William Faulkner",
+    "J.D. Salinger"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f25044074291229a"
+  },
+  "text": "Who is the author of '1984'?",
+  "category": "Literature",
+  "correctAnswer": "George Orwell",
+  "wrongAnswers": [
+    "Aldous Huxley",
+    "Ray Bradbury",
+    "J.R.R. Tolkien",
+    "Isaac Asimov",
+    "Arthur C. Clarke",
+    "Philip K. Dick",
+    "Kurt Vonnegut",
+    "H.G. Wells",
+    "George R.R. Martin"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f25044074291229b"
+  },
+  "text": "In which year was 'Pride and Prejudice' first published?",
+  "category": "Literature",
+  "correctAnswer": "1813",
+  "wrongAnswers": [
+    "1800",
+    "1820",
+    "1830",
+    "1840",
+    "1850",
+    "1860",
+    "1870",
+    "1880",
+    "1890"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f25044074291229c"
+  },
+  "text": "Who wrote 'The Great Gatsby'?",
+  "category": "Literature",
+  "correctAnswer": "F. Scott Fitzgerald",
+  "wrongAnswers": [
+    "Ernest Hemingway",
+    "John Steinbeck",
+    "William Faulkner",
+    "T.S. Eliot",
+    "J.D. Salinger",
+    "Harper Lee",
+    "George Orwell",
+    "Mark Twain",
+    "Charles Dickens"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f25044074291229d"
+  },
+  "text": "Who is the author of the 'Harry Potter' series?",
+  "category": "Literature",
+  "correctAnswer": "J.K. Rowling",
+  "wrongAnswers": [
+    "J.R.R. Tolkien",
+    "George R.R. Martin",
+    "C.S. Lewis",
+    "Philip Pullman",
+    "Rick Riordan",
+    "Suzanne Collins",
+    "Stephen King",
+    "Terry Pratchett",
+    "Neil Gaiman"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f25044074291229e"
+  },
+  "text": "What is the title of the first book in the 'A Song of Ice and Fire' series?",
+  "category": "Literature",
+  "correctAnswer": "A Game of Thrones",
+  "wrongAnswers": [
+    "A Clash of Kings",
+    "A Storm of Swords",
+    "A Feast for Crows",
+    "A Dance with Dragons",
+    "The Winds of Winter",
+    "A Dream of Spring",
+    "The Hobbit",
+    "The Fellowship of the Ring",
+    "The Two Towers"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f25044074291229f"
+  },
+  "text": "Who wrote 'Moby-Dick'?",
+  "category": "Literature",
+  "correctAnswer": "Herman Melville",
+  "wrongAnswers": [
+    "Nathaniel Hawthorne",
+    "Edgar Allan Poe",
+    "Mark Twain",
+    "Henry James",
+    "F. Scott Fitzgerald",
+    "John Steinbeck",
+    "Ernest Hemingway",
+    "William Faulkner",
+    "J.D. Salinger"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f2504407429122a0"
+  },
+  "text": "In which century was Shakespeare born?",
+  "category": "Literature",
+  "correctAnswer": "16th Century",
+  "wrongAnswers": [
+    "15th Century",
+    "17th Century",
+    "18th Century",
+    "19th Century",
+    "14th Century",
+    "20th Century",
+    "13th Century",
+    "12th Century",
+    "11th Century"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f2504407429122a1"
+  },
+  "text": "Who wrote 'The Catcher in the Rye'?",
+  "category": "Literature",
+  "correctAnswer": "J.D. Salinger",
+  "wrongAnswers": [
+    "Ernest Hemingway",
+    "F. Scott Fitzgerald",
+    "John Steinbeck",
+    "Harper Lee",
+    "William Faulkner",
+    "George Orwell",
+    "Mark Twain",
+    "Charles Dickens",
+    "James Joyce"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f2504407429122a2"
+  },
+  "text": "What is the first name of Mr. Darcy in 'Pride and Prejudice'?",
+  "category": "Literature",
+  "correctAnswer": "Fitzwilliam",
+  "wrongAnswers": [
+    "Charles",
+    "George",
+    "Edward",
+    "Henry",
+    "Thomas",
+    "John",
+    "Robert",
+    "William",
+    "James"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c415f2504407429122a3"
+  },
+  "text": "What is the chemical symbol for gold?",
+  "category": "Science",
+  "correctAnswer": "Au",
+  "wrongAnswers": [
+    "Ag",
+    "Fe",
+    "Pb",
+    "Hg",
+    "Cu",
+    "Zn",
+    "Pt",
+    "Na",
+    "K"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c656f2504407429122a5"
+  },
+  "text": "What planet is known as the Red Planet?",
+  "category": "Science",
+  "correctAnswer": "Mars",
+  "wrongAnswers": [
+    "Venus",
+    "Jupiter",
+    "Saturn",
+    "Mercury",
+    "Neptune",
+    "Uranus",
+    "Earth",
+    "Pluto",
+    "Ceres"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c656f2504407429122a6"
+  },
+  "text": "What is the most abundant gas in the Earth's atmosphere?",
+  "category": "Science",
+  "correctAnswer": "Nitrogen",
+  "wrongAnswers": [
+    "Oxygen",
+    "Carbon Dioxide",
+    "Helium",
+    "Hydrogen",
+    "Argon",
+    "Methane",
+    "Neon",
+    "Krypton",
+    "Xenon"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c656f2504407429122a7"
+  },
+  "text": "What is the chemical formula for water?",
+  "category": "Science",
+  "correctAnswer": "H2O",
+  "wrongAnswers": [
+    "CO2",
+    "O2",
+    "H2O2",
+    "CH4",
+    "NH3",
+    "NaCl",
+    "HCl",
+    "SO2",
+    "C6H12O6"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c656f2504407429122a8"
+  },
+  "text": "Who developed the theory of relativity?",
+  "category": "Science",
+  "correctAnswer": "Albert Einstein",
+  "wrongAnswers": [
+    "Isaac Newton",
+    "Niels Bohr",
+    "Galileo Galilei",
+    "Nikola Tesla",
+    "Stephen Hawking",
+    "Marie Curie",
+    "Richard Feynman",
+    "Max Planck",
+    "Erwin Schrödinger"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c656f2504407429122a9"
+  },
+  "text": "What is the powerhouse of the cell?",
+  "category": "Science",
+  "correctAnswer": "Mitochondria",
+  "wrongAnswers": [
+    "Nucleus",
+    "Ribosome",
+    "Endoplasmic Reticulum",
+    "Golgi Apparatus",
+    "Chloroplast",
+    "Lysosome",
+    "Vacuole",
+    "Cytoplasm",
+    "Cell Membrane"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c656f2504407429122aa"
+  },
+  "text": "What element does 'O' represent on the periodic table?",
+  "category": "Science",
+  "correctAnswer": "Oxygen",
+  "wrongAnswers": [
+    "Osmium",
+    "Gold",
+    "Hydrogen",
+    "Helium",
+    "Silver",
+    "Copper",
+    "Iron",
+    "Carbon",
+    "Nitrogen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c656f2504407429122ab"
+  },
+  "text": "What is the speed of light?",
+  "category": "Science",
+  "correctAnswer": "299,792,458 meters per second",
+  "wrongAnswers": [
+    "150,000,000 meters per second",
+    "300,000,000 meters per second",
+    "299,792 meters per second",
+    "150,000 meters per second",
+    "299,792 kilometers per hour",
+    "300,000 kilometers per hour",
+    "299,792,458 kilometers per hour",
+    "150,000,000 kilometers per hour",
+    "300,000,000 kilometers per hour"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c656f2504407429122ac"
+  },
+  "text": "What is the center of an atom called?",
+  "category": "Science",
+  "correctAnswer": "Nucleus",
+  "wrongAnswers": [
+    "Electron",
+    "Proton",
+    "Neutron",
+    "Quark",
+    "Photon",
+    "Gluon",
+    "Boson",
+    "Lepton",
+    "Neutrino"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c656f2504407429122ad"
+  },
+  "text": "What is the chemical symbol for potassium?",
+  "category": "Science",
+  "correctAnswer": "K",
+  "wrongAnswers": [
+    "P",
+    "Pt",
+    "Po",
+    "Pb",
+    "Pd",
+    "Kr",
+    "Ca",
+    "Na",
+    "Mg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122af"
+  },
+  "text": "Who was the first President of the United States?",
+  "category": "History",
+  "correctAnswer": "George Washington",
+  "wrongAnswers": [
+    "Thomas Jefferson",
+    "John Adams",
+    "James Madison",
+    "Alexander Hamilton",
+    "James Monroe",
+    "Benjamin Franklin",
+    "Andrew Jackson",
+    "John Jay",
+    "Patrick Henry"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122b0"
+  },
+  "text": "In what year did the Titanic sink?",
+  "category": "History",
+  "correctAnswer": "1912",
+  "wrongAnswers": [
+    "1905",
+    "1915",
+    "1920",
+    "1910",
+    "1911",
+    "1908",
+    "1909",
+    "1913",
+    "1914"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122b1"
+  },
+  "text": "Who was the first man to step on the moon?",
+  "category": "History",
+  "correctAnswer": "Neil Armstrong",
+  "wrongAnswers": [
+    "Buzz Aldrin",
+    "Yuri Gagarin",
+    "Michael Collins",
+    "Alan Shepard",
+    "John Glenn",
+    "Sally Ride",
+    "Chris Hadfield",
+    "Gus Grissom",
+    "James Lovell"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122b2"
+  },
+  "text": "Which ancient civilization built the pyramids?",
+  "category": "History",
+  "correctAnswer": "Egyptians",
+  "wrongAnswers": [
+    "Romans",
+    "Greeks",
+    "Aztecs",
+    "Mayans",
+    "Incas",
+    "Babylonians",
+    "Chinese",
+    "Mesopotamians",
+    "Persians"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122b3"
+  },
+  "text": "What year did World War II end?",
+  "category": "History",
+  "correctAnswer": "1945",
+  "wrongAnswers": [
+    "1940",
+    "1942",
+    "1944",
+    "1946",
+    "1947",
+    "1939",
+    "1950",
+    "1948",
+    "1949"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122b4"
+  },
+  "text": "Who was the British Prime Minister during World War II?",
+  "category": "History",
+  "correctAnswer": "Winston Churchill",
+  "wrongAnswers": [
+    "Neville Chamberlain",
+    "Clement Attlee",
+    "Harold Macmillan",
+    "Anthony Eden",
+    "David Lloyd George",
+    "Stanley Baldwin",
+    "Margaret Thatcher",
+    "Tony Blair",
+    "Edward Heath"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122b5"
+  },
+  "text": "In what year did the Berlin Wall fall?",
+  "category": "History",
+  "correctAnswer": "1989",
+  "wrongAnswers": [
+    "1985",
+    "1987",
+    "1990",
+    "1991",
+    "1986",
+    "1988",
+    "1992",
+    "1983",
+    "1984"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122b6"
+  },
+  "text": "Who discovered penicillin?",
+  "category": "History",
+  "correctAnswer": "Alexander Fleming",
+  "wrongAnswers": [
+    "Louis Pasteur",
+    "Marie Curie",
+    "Joseph Lister",
+    "Robert Koch",
+    "Edward Jenner",
+    "Gregor Mendel",
+    "Jonas Salk",
+    "Albert Sabin",
+    "James Watson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122b7"
+  },
+  "text": "Which empire was ruled by Genghis Khan?",
+  "category": "History",
+  "correctAnswer": "Mongol Empire",
+  "wrongAnswers": [
+    "Roman Empire",
+    "Ottoman Empire",
+    "Persian Empire",
+    "Byzantine Empire",
+    "British Empire",
+    "French Empire",
+    "Russian Empire",
+    "Holy Roman Empire",
+    "Austro-Hungarian Empire"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6645c736f2504407429122b8"
+  },
+  "text": "What was the first successful English colony in America?",
+  "category": "History",
+  "correctAnswer": "Jamestown",
+  "wrongAnswers": [
+    "Plymouth",
+    "Roanoke",
+    "Salem",
+    "St. Augustine",
+    "New Amsterdam",
+    "Savannah",
+    "Charleston",
+    "Philadelphia",
+    "Boston"
+  ]
+}]
