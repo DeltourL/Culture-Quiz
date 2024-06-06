@@ -10,6 +10,7 @@ export default function Category() {
             .then(data => setCategories(data))
             .catch(error => console.error('Error fetching categories:', error));
     }, []);
+    
     return (
         <div>
             <ul>
