@@ -5,6 +5,7 @@ styles
 */
 
 import { useEffect, useState } from "react";
+import shuffle from "../components/Shuffle";
 import { useParams, useNavigate } from "react-router-dom"
 
 export default function Quiz() {
@@ -22,7 +23,8 @@ export default function Quiz() {
     const [answers, setAnswers] = useState([]);
     const [countdownTimer, setCountdownTimer] = useState(TIMER_IN_SECONDS);
     const [score, setScore] = useState(0);
-    const [buttonsDisabled, setButtonsDisabled] = useState(false);
+    const [isButtonsDisabled, setIsButtonsDisabled] = useState(false);
+    const [isOver, setIsOver] = useState(false);
 
     useEffect(() => {
         fetch(`http://localhost:8080/questions/${category}`)
@@ -72,9 +74,15 @@ export default function Quiz() {
         return () => clearInterval(timer);
     }, [countdownTimer, answers]);
 
+
+    useEffect(() => {
+        if (isOver)
+            navigate(`/Results/${score}`);
+    }, [isOver]);
+
     function handleAnswer(answer) {
         // prevent from clicking other buttons
-        setButtonsDisabled(true);
+        setIsButtonsDisabled(true);
 
         // correct/wrong answer display
         if (answer !== '') {
@@ -90,9 +98,9 @@ export default function Quiz() {
             if (questionIndex < NUMBER_OF_QUESTIONS - 1) {
                 setQuestionIndex(questionIndex + 1);
                 setCountdownTimer(TIMER_IN_SECONDS);
-                setButtonsDisabled(false);
+                setIsButtonsDisabled(false);
             } else {
-                navigate(`/Results/${score}`);
+                setIsOver(true);
             }
         }, DELAY_BEFORE_NEXT_QUESTION_IN_MILLISECONDS);
     }
@@ -114,20 +122,11 @@ export default function Quiz() {
                         key={answer}
                         id={answer}
                         onClick={() => handleAnswer(answer)}
-                        disabled={buttonsDisabled}>
+                        disabled={isButtonsDisabled}>
                         {answer}
                     </button>
                 )}
             </div>
         </div>
     );
-}
-
-function shuffle(array) {
-    const newArray = Array.from(array);
-    for (let i = newArray.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-    }
-    return newArray;
 }
