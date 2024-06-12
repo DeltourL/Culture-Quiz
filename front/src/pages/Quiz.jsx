@@ -1,20 +1,21 @@
 /*
 TODO
 timeout message ?
-keep track of score
-display result
+styles
 */
 
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 
 export default function Quiz() {
+    const navigate = useNavigate();
     const { category } = useParams()
 
     const TIMER_IN_SECONDS = 30;
     const DELAY_BEFORE_NEXT_QUESTION_IN_MILLISECONDS = 2000;
     const COLOR_RED = "#FF0000";
     const COLOR_GREEN = "#00FF00";
+    const NUMBER_OF_QUESTIONS = 10;
 
     const [questions, setQuestions] = useState([]);
     const [questionIndex, setQuestionIndex] = useState(0);
@@ -27,9 +28,9 @@ export default function Quiz() {
         fetch(`http://localhost:8080/questions/${category}`)
             .then(response => response.json())
             .then(data => {
-                // pick 10 questions randomly
+                // pick questions randomly
                 const shuffledQuestions = shuffle(data);
-                setQuestions(shuffledQuestions.slice(0, 10));
+                setQuestions(shuffledQuestions.slice(0, NUMBER_OF_QUESTIONS));
             })
             .catch(error => console.error('Error fetching questions:', error));
     }, [category]);
@@ -86,13 +87,12 @@ export default function Quiz() {
         }
 
         setTimeout(() => {
-            if (questionIndex < 9) {
+            if (questionIndex < NUMBER_OF_QUESTIONS - 1) {
                 setQuestionIndex(questionIndex + 1);
                 setCountdownTimer(TIMER_IN_SECONDS);
                 setButtonsDisabled(false);
             } else {
-                // TODO results
-                console.log("results");
+                navigate(`/Results/${score}`);
             }
         }, DELAY_BEFORE_NEXT_QUESTION_IN_MILLISECONDS);
     }
