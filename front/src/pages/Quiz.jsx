@@ -1,11 +1,6 @@
-/*
-TODO
-styles
-*/
-
 import { useEffect, useState } from "react";
 import shuffle from "../components/Shuffle";
-import { useParams, useNavigate } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom";
 
 export default function Quiz() {
     const navigate = useNavigate();
@@ -112,26 +107,28 @@ export default function Quiz() {
         return <div>Loading...</div>;
 
     return (
-        <div>
-            <div className="timer">
-                <h2>{countdownTimer}</h2>
+        <div className='min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4'>
+            <div className="timer mb-4">
+                <h2 className='text-xl font-bold'>{countdownTimer}</h2>
             </div>
-            <div className="question">
-                <h3>{questions[questionIndex].text}</h3>
+            <div className="question mb-4">
+                <h3 className='text-lg font-semibold'>{questions[questionIndex].text}</h3>
             </div>
-            <div className="answers">
-                <ul>
-                    {answers.map((answer) =>
+            <div className="answers w-full max-w-md">
+                <ul className='space-y-2'>
+                    {answers.map((answer) => (
                         <li key={answer}>
                             <button
                                 key={answer}
                                 id={answer}
                                 onClick={() => handleAnswer(answer)}
-                                disabled={isButtonsDisabled}>
+                                disabled={isButtonsDisabled}
+                                className='w-full py-2 bg-blue-500 text-white rounded'
+                            >
                                 {answer}
                             </button>
                         </li>
-                    )}
+                    ))}
                 </ul>
             </div>
         </div>
