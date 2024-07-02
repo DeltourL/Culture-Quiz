@@ -8,11 +8,11 @@ export default function Category() {
         fetch('http://localhost:8080/categories')
             .then(response => response.json())
             .then(data => setCategories(data))
-            .catch(error => console.error('Error fetching categories:', error));
+            .catch(error => console.error('Error fetching categories: ', error));
     }, []);
-    
+
     return (
-        <div>
+        <div className='categories'>
             <ul>
                 {categories.map((category) => (
                     <li key={category}>
@@ -22,5 +22,4 @@ export default function Category() {
             </ul>
         </div>
     );
-
 };

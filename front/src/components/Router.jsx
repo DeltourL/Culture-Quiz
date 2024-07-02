@@ -2,10 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Quiz from "../pages/Quiz";
 import Results from "../pages/Results";
-/* 
-TODO
-import Results from "../pages/Results";
- */
+
 export default function Router() {
   return (
     <Routes>

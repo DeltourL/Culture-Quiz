@@ -1,6 +1,5 @@
 /*
 TODO
-timeout message ?
 styles
 */
 
@@ -10,7 +9,7 @@ import { useParams, useNavigate } from "react-router-dom"
 
 export default function Quiz() {
     const navigate = useNavigate();
-    const { category } = useParams()
+    const { category } = useParams();
 
     const TIMER_IN_SECONDS = 30;
     const DELAY_BEFORE_NEXT_QUESTION_IN_MILLISECONDS = 2000;
@@ -26,6 +25,7 @@ export default function Quiz() {
     const [isButtonsDisabled, setIsButtonsDisabled] = useState(false);
     const [isOver, setIsOver] = useState(false);
 
+    // fetch questions
     useEffect(() => {
         fetch(`http://localhost:8080/questions/${category}`)
             .then(response => response.json())
@@ -37,7 +37,7 @@ export default function Quiz() {
             .catch(error => console.error('Error fetching questions:', error));
     }, [category]);
 
-
+    // set up answers
     useEffect(() => {
         if (questions.length <= 0)
             return;
@@ -58,6 +58,7 @@ export default function Quiz() {
         setAnswers(shuffledAnswers)
     }, [questionIndex, questions]);
 
+    // update countdown timer
     useEffect(() => {
         if (questions.length <= 0)
             return;
@@ -74,12 +75,13 @@ export default function Quiz() {
         return () => clearInterval(timer);
     }, [countdownTimer, answers]);
 
-
+    // go to results
     useEffect(() => {
         if (isOver)
             navigate(`/Results/${score}`);
     }, [isOver]);
 
+    // check answer / timeout, move to next question
     function handleAnswer(answer) {
         // prevent from clicking other buttons
         setIsButtonsDisabled(true);
@@ -94,6 +96,7 @@ export default function Quiz() {
             }
         }
 
+        // small delay before moving to the next question, reset countdown timer
         setTimeout(() => {
             if (questionIndex < NUMBER_OF_QUESTIONS - 1) {
                 setQuestionIndex(questionIndex + 1);
@@ -117,15 +120,19 @@ export default function Quiz() {
                 <h3>{questions[questionIndex].text}</h3>
             </div>
             <div className="answers">
-                {answers.map((answer) =>
-                    <button
-                        key={answer}
-                        id={answer}
-                        onClick={() => handleAnswer(answer)}
-                        disabled={isButtonsDisabled}>
-                        {answer}
-                    </button>
-                )}
+                <ul>
+                    {answers.map((answer) =>
+                        <li key={answer}>
+                            <button
+                                key={answer}
+                                id={answer}
+                                onClick={() => handleAnswer(answer)}
+                                disabled={isButtonsDisabled}>
+                                {answer}
+                            </button>
+                        </li>
+                    )}
+                </ul>
             </div>
         </div>
     );

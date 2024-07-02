@@ -6,7 +6,6 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 
-
 mongoose.connect('mongodb://localhost:27017/culture_quiz', {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -39,7 +38,7 @@ app.get('/categories', async (req, res) => {
 
 app.get('/questions/:category', async (req, res) => {
     try {
-        const questions = await Question.find({category : req.params.category});
+        const questions = await Question.find({ category: req.params.category });
 
         console.log(questions);
         res.send(questions);
